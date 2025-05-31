@@ -50,16 +50,15 @@ header{
 }
 
 .sale{
-	display: flex;
+	display: grid;
 	position: absolute;
-	top: 0;
 	width: 308px;
+	top: 32%;
+    left: 21%;
+	gap: 35px;
 }
-.sale-group{
-	display:grid;
-	gap: 50px;
-}
-.sale-group h2{
+
+.sale h2{
 	width: 308px;
 	height: 44px;
 	font-family: Roboto;
@@ -68,7 +67,7 @@ header{
 	color: #FFFFFF;
 	margin: 0;
 }
-.sale-group p{
+.sale p{
 	width: 308px;
 	height: 35px;
 	font-family: Roboto;
@@ -84,7 +83,7 @@ header{
     text-decoration: none;
 	border-radius: 40px;
 	border: 2px solid #FFFFFF;
-	padding: 12px 0;
+	padding: 10px 0;
 	color: #FFFFFF;
 }
 
@@ -159,6 +158,7 @@ header{
 	line-height: 100%;
 	padding: 0;
 	margin: 0;
+	flex-wrap: wrap;
 }
 
 .second-line-button{
@@ -174,4 +174,153 @@ header{
 	font-weight: 400;
 	font-size: 14px;
 	color: #000000;
+}
+
+.main-block {
+	background: #EFEFEF;
+	margin: 80px 0;
+}
+.main-block_special {
+	display: grid;
+	justify-content: center;
+}
+.main-block_special h3{
+	margin: 0;
+	width: 320;
+	height: 29;
+	font-family: Roboto;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 100%;
+	letter-spacing: 0%;
+	padding-bottom: 38px;
+}
+.main-block_special-items {
+	display: flex;
+	gap: 30px;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.main-block_special-item {
+	max-width: 255px;
+	background:#FFFFFF;
+	display: grid;
+	justify-items: center;
+	padding: 25px 30px;
+	gap: 22px;
+}
+
+.main-block_special-item-title {
+	width: 195px;
+	margin: 0;
+	height: 33px;
+	font-family: Roboto;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 141%;
+	letter-spacing: 0%;
+	text-align: center;
+}
+.main-block_special-item-subtitle {
+	width: 80px;
+	height: 19px;
+	font-family: Roboto;
+	font-weight: 500;
+	font-size: 21px;
+	line-height: 100%;
+	letter-spacing: 5%;
+	text-align: center;
+	margin: 0;
+}
+.main-block_special-item-button {
+	width: 130px;
+	height: 35px;
+	border-radius: 30px;
+	background: #F13C6E;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.main-block_special-item-button p{
+	width: 51px;
+	height: 17px;
+	font-family: Roboto;
+	font-weight: 400;
+	font-size: 14px;
+	letter-spacing: 5%;
+	text-align: center;
+	color: #FFFFFF;
+
+}
+
+.main-block_our-shop {
+	margin: 100px 0;
+	display: flex;
+	gap: 30px;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}
+.our-shop_block {
+	width: 540px;
+	height: 212px;
+	background: #F13C6E;
+	display: flex;
+	justify-content: space-around;
+    align-items: center;
+}
+.our-shop_block-info{
+	display: grid;
+	gap: 25px;
+}
+.our-shop_block-info h4{
+	height: 17px;
+	font-family: Roboto;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 100%;
+	color: #FFFFFF;
+	margin: 0;
+}
+
+.our-shop_block-info p {
+	height: 40px;
+	font-family: Roboto;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 141%;
+	color: #FFFFFF;
+	margin: 0;
+}
+.our-shop_block-info-input{
+	width: 225px;
+	height: 35px;
+	border-radius: 30px;
+	background: #FFFFFF;
+	outline: none;
+	border-color: #FFFFFF;
+}
+.our-shop_block-info-input::placeholder{
+	font-family: Roboto;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 100%;
+	padding-left: 25px;
+	color: #C4C4C4;	
+}
+
+.our-shop_block-info-button{
+	border: 2px solid #FFFFFF;
+	width: 170px;
+	height: 35px;
+	border-radius: 30px;
+	display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.our-shop_block-info-button p{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
 }
