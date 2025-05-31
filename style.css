@@ -1,7 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 html,
 body{
 	margin: 0;
 	padding: 0;
+}
+a{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
 }
 
 header{
@@ -12,18 +21,17 @@ header{
 	justify-content: center;
 }
 .header-nav{
+	width:447px;
 	display: flex;
-	gap: 30px;
 	list-style-type: none;
+	padding: 2px 0 0 0;
+	justify-content: space-between;
 }
 .header-nav li{
-	width: 64;
-	height: 17;
 	font-family: Roboto;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 100%;
-	letter-spacing: 0%;
 	color: #333333;
 	cursor: pointer;
 }
@@ -32,6 +40,7 @@ header{
 /* ---------------------------------------------------------------------------------------- */
 
 .main-img{
+	margin: auto;
 	max-height: 604px;
 	position: relative;
 }
@@ -44,6 +53,39 @@ header{
 	display: flex;
 	position: absolute;
 	top: 0;
+	width: 308px;
+}
+.sale-group{
+	display:grid;
+	gap: 50px;
+}
+.sale-group h2{
+	width: 308px;
+	height: 44px;
+	font-family: Roboto;
+	font-weight: 700;
+	font-size: 48px;
+	color: #FFFFFF;
+	margin: 0;
+}
+.sale-group p{
+	width: 308px;
+	height: 35px;
+	font-family: Roboto;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #FFFFFF;
+}
+.sale-group_href{
+	display: flex;
+	justify-content: center;
+	width: 170px;
+    text-decoration: none;
+	border-radius: 40px;
+	border: 2px solid #FFFFFF;
+	padding: 12px 0;
+	color: #FFFFFF;
 }
 
 .second-line{
@@ -56,6 +98,16 @@ header{
 .second-line_info {
 	display: flex;
 	margin-right: 172px;
+	
+}
+.second-line_info h1{
+	color: #F13C6E;
+	font-family: Roboto;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 100%;
+	letter-spacing: 4px;
+
 }
 .second-line_icon {
 	display: flex;
@@ -78,7 +130,7 @@ header{
 	outline: none;
 }
 .input img{
-	padding-right: 10px;
+	padding-right: 18px;
 
 }
 .second-line_number {
@@ -112,7 +164,6 @@ header{
 .second-line-button{
 	border: 2px solid #F13C6E;
 	border-radius: 40px;
-	text-decoration: none;
 	margin-left: 40px;
 }
 .second-line-button p{
