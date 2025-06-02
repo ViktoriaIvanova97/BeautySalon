@@ -41,12 +41,11 @@ header{
 
 .main-img{
 	margin: auto;
-	max-height: 604px;
 	position: relative;
 }
 .main-img img{
 	width: 100%;
-	height: 100%;
+	height: 604px;
 }
 
 .sale{
@@ -425,6 +424,7 @@ header{
 	gap: 30px;
 	justify-content: center;
 	padding: 60px 0;
+	flex-wrap: wrap;
 }
 .footer-category_block {
 	width: 255px;
@@ -460,3 +460,71 @@ header{
 }
 
 /* -------------------------------------------- */
+.footer-info{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	margin: auto;
+	padding: 24px 0 34px 0;
+	flex-wrap: wrap;
+}
+.footer-info-icons{
+	display: flex;
+	gap: 16px;
+
+}
+.footer-info-icons a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 45px;
+	height: 45px;
+	border-width: 2px;
+	border: 2px solid #F13C6E;
+	border-radius: 50%;
+}
+.footer-info-address{
+	font-family: Roboto;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 100%;
+	color: #000000;
+	padding-left: 205px;
+	padding-right: 105px;
+}
+.footer-info-contacts{
+	display: flex;
+	gap: 40px;
+	align-items: center
+}
+.footer-info-contacts p{
+	font-family: Roboto;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 100%;
+	color: #000000;
+}
+.footer-info-contacts button{
+	width: 170px;
+	height: 40px;
+	border-radius: 40px;
+	border: 2px solid #F13C6E
+}
+/* --------------------------------- */
+.footer_subtitle{
+	max-width: 1110px;
+	height: 64px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	align-items: center;
+	background-color: #EFEFEF;
+	flex-wrap: wrap;
+}
+.footer_subtitle p{
+	font-family: Roboto;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 100%;
+	color: #828282;
+}
