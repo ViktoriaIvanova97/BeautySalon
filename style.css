@@ -48,7 +48,7 @@ header{
 	height: 604px;
 }
 
-.sale{
+.main-img-info{
 	display: grid;
 	position: absolute;
 	width: 308px;
@@ -57,7 +57,7 @@ header{
 	gap: 35px;
 }
 
-.sale h2{
+.main-img-info h2{
 	width: 308px;
 	height: 44px;
 	font-family: Roboto;
@@ -66,7 +66,7 @@ header{
 	color: #FFFFFF;
 	margin: 0;
 }
-.sale p{
+.main-img-info p{
 	width: 308px;
 	height: 35px;
 	font-family: Roboto;
@@ -75,7 +75,7 @@ header{
 	line-height: 20px;
 	color: #FFFFFF;
 }
-.sale-group_href{
+.main-img-href{
 	display: flex;
 	justify-content: center;
 	width: 170px;
@@ -85,7 +85,7 @@ header{
 	padding: 10px 0;
 	color: #FFFFFF;
 }
-
+/* --------------------------- */
 .second-line{
 	display: flex;
 	flex-wrap: wrap;
