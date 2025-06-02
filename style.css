@@ -292,13 +292,22 @@ header{
 	color: #FFFFFF;
 	margin: 0;
 }
-.our-shop_block-info-input{
+.our-shop_block-info form{
 	width: 225px;
-	height: 35px;
+	height: 40px;
 	border-radius: 30px;
 	background: #FFFFFF;
 	outline: none;
 	border-color: #FFFFFF;
+}
+.our-shop_block-info-input{
+	width: 180px;
+	height: 38px;
+	border-radius: 30px;
+	background: #FFFFFF;
+	outline: none;
+	border-color: #ffffff00;
+	padding: 0px 20px;
 }
 .our-shop_block-info-input::placeholder{
 	font-family: Roboto;
@@ -323,4 +332,14 @@ header{
 	justify-content: center;
 	text-align: center;
 	align-items: center;
+}
+.main-block_brands{
+	display: flex;
+	gap: 130px;
+	padding: 35px 63px;
+	justify-content: center;
+}
+.main-block_brands-item{
+	display: grid;
+	gap: 70px;
 }
