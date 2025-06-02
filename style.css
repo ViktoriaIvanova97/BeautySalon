@@ -175,10 +175,10 @@ header{
 	font-size: 14px;
 	color: #000000;
 }
-
+/* --------------------------------------------------- */
 .main-block {
 	background: #EFEFEF;
-	margin: 80px 0;
+	padding: 80px 0;
 }
 .main-block_special {
 	display: grid;
@@ -348,7 +348,7 @@ header{
 .main-block_watched-recently{
 	display: grid;
 	justify-content: center;
-	margin: 80px 0;
+	padding: 80px 0 0 0;
 }
 
 .main-block_watched-recently h3{
@@ -417,5 +417,46 @@ header{
 	letter-spacing: 5%;
 	text-align: center;
 	color: #FFFFFF;
+}
+/* --------------------------------------- */
+
+.footer-category {
+	display: flex;
+	gap: 30px;
+	justify-content: center;
+	padding: 60px 0;
+}
+.footer-category_block {
+	width: 255px;
+	display: grid;
+	gap:55px
+}
+.footer-category_block-title {
+	width: 99px;
+	height: 40px;
+	font-family: Roboto;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 141%;
+	color: #000000;
+	margin: 0;
+}
+.footer-category_block-href{
+	padding: 0;
+	margin: 0;
+}
+.footer-category_block-href li{
+	list-style-type: none;
 
 }
+.footer-category_block-href a{
+	width: 82px;
+	height: 158px;
+	font-family: Roboto;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 28px;
+	color: #828282;
+}
+
+/* -------------------------------------------- */
